@@ -76,6 +76,6 @@
         button.addEventListener('click', () => {
         const productId= button.dataset.productId; 
         addToCart(productId);
-            updateCartQuantity();
+         updateCartQuantity();
     });
   }); 
