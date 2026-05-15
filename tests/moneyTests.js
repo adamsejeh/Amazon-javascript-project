@@ -11,3 +11,11 @@
   } else{
     console.log('failed');
   }
+
+  console.log('work with 0');
+
+  if(formatCurrency(0) === '0.00'){
+    console.log('passed');
+  } else{
+    console.log('failed');   
+  }
