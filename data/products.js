@@ -89,6 +89,13 @@ const object3 = {
 object3.method();
 */
 
+function loadProductsFetch(){
+  fetch('https://supersimplebackend.dev/products').then((response) => {
+    console.log(response);  
+  })
+}
+loadProductsFetch();
+
 export let products = [];
 
 export function loadProducts(fun) {
@@ -101,7 +108,7 @@ export function loadProducts(fun) {
   return new Product(productDetails);
     });
     
-    console.log('load products'); 
+    console.log('load products');  
     fun();
   });
 
