@@ -2,6 +2,10 @@
  import{products, loadProducts } from '../data/products.js';
  import { formatCurrency } from './utils/money.js';
 
+ loadProducts(renderProductGrid);
+
+ function renderProductGrid(){
+
  let productsHTML = '';
 
  products.forEach((product) => {
@@ -79,3 +83,4 @@
          updateCartQuantity();
     });
   }); 
+}
