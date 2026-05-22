@@ -16,8 +16,8 @@ This is an Amazon checkout clone built with JavaScript, HTML, and CSS.
 - CSS
 
 ## GitHub Repository
-https://github.com/yourusername/project-name
-https://amazonproject0.netlify.app/
+- https://github.com/adamsejeh/Amazon-javascript-project.git
+- https://amazonproject0.netlify.app/
 
 ## Author
 ADAMS EJEH
